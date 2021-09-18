@@ -50,6 +50,7 @@ group :development do
   gem 'bundle-audit'
   # Add a comment summarizing the current schema to the top or bottom
   gem 'annotate'
+  # Increase application's performance by reducing the number of queries it makes.
   gem 'bullet'
 end
 
@@ -58,6 +59,7 @@ group :test do
   gem 'selenium-webdriver'
   gem 'webdrivers'
   gem 'shoulda-matchers', '~> 5.0'
+  gem 'rails-controller-testing'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
