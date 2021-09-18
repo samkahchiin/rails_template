@@ -95,6 +95,7 @@ GEM
     concurrent-ruby (1.1.9)
     crass (1.0.6)
     diff-lcs (1.4.4)
+    docile (1.4.0)
     erubi (1.10.0)
     erubis (2.7.0)
     ffi (1.15.4)
@@ -231,6 +232,11 @@ GEM
     sexp_processor (4.15.3)
     shoulda-matchers (5.0.0)
       activesupport (>= 5.2.0)
+    simplecov (0.17.1)
+      docile (~> 1.1)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.2)
     spring (3.0.0)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -295,6 +301,7 @@ DEPENDENCIES
   sass-rails (>= 6)
   selenium-webdriver
   shoulda-matchers (~> 5.0)
+  simplecov (~> 0.17.1)
   spring
   turbolinks (~> 5)
   tzinfo-data
