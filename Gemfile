@@ -48,6 +48,8 @@ group :development do
   gem 'brakeman'
   # Patch-level verification for bundler.
   gem 'bundle-audit'
+  # Add a comment summarizing the current schema to the top or bottom
+  gem 'annotate'
 end
 
 group :test do
