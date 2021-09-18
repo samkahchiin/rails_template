@@ -50,6 +50,7 @@ group :development do
   gem 'bundle-audit'
   # Add a comment summarizing the current schema to the top or bottom
   gem 'annotate'
+  gem 'bullet'
 end
 
 group :test do
