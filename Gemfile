@@ -46,6 +46,8 @@ group :development do
   gem 'rubocop', '~> 0.92.0', require: false
   # Brakeman is a static analysis tool which checks Ruby on Rails applications for security vulnerabilities.
   gem 'brakeman'
+  # Patch-level verification for bundler.
+  gem 'bundle-audit'
 end
 
 group :test do
