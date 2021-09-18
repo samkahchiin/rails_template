@@ -69,6 +69,7 @@ group :test do
   gem 'shoulda-matchers', '~> 5.0'
   gem 'rails-controller-testing'
   gem 'simplecov', '~> 0.17.1', require: false
+  gem 'factory_bot_rails', '~> 6.1.0', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
